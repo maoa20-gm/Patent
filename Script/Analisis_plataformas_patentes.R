@@ -5,8 +5,10 @@
 library(tidyverse)
 library(lubridate)
 library(janitor)
+library(extrafont)
 
-
+loadfonts(device = "ubuntu", quiet = TRUE) 
+loadfonts()
 #-------------------------------------------------------------------------#
 # Loading                                                                 #
 #-------------------------------------------------------------------------#
